@@ -63,6 +63,16 @@
             },
             "description": "An array of prefixes used to detect references to issues",
             "default": ["#"]
+        },
+        "skip": {
+            "type": "object",
+            "properties": {
+                "bump": { "type": "boolean", "default": false },
+                "changelog": { "type": "boolean", "default": false },
+                "commit": { "type": "boolean", "default": false },
+                "tag": { "type": "boolean", "default": false },
+            },
+            "additionalProperties": false
         }
     },
     "definitions": {
