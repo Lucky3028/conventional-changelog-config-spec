@@ -12,7 +12,7 @@
 - [userUrlFormat](#userurlformat-string)
 - [releaseCommitMessageFormat](#releasecommitmessageformat-string)
 - [issuePrefixes](#issueprefixes-array-of-string)
-- [skip](#skip)
+- [skip](#skip-object)
 
 ## Substitutions
 - [host](#host)
@@ -120,14 +120,13 @@ See [Substitutions](#substitutions-1) for more details on substitutions.
 
 An array of prefixes used to detect references to issues
 
-### skip (`object`)
-
-Whether skip any of the lifecycle steps
-
 ```
 ['#']
 ```
 
+### skip (`object`)
+
+Whether skip any of the lifecycle steps
 
 
 ## Substitutions
